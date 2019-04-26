@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import TheCards from './components/TheCards.js';
+
 
 class App extends Component {
+
   constructor() {
     super();
     this.state = {
@@ -29,10 +32,13 @@ class App extends Component {
       });
   };
 
+  // my code is below, the code above gets the array from a remote server
+
   render() {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <TheCards />
       </div>
     );
   }
