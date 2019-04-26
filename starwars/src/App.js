@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import CardList from './components/CardList.js';
 
+import './components/CardStyler.css';
+
 
 class App extends Component {
 
