@@ -1,3 +1,14 @@
-li{
+.info-card{
 	background: white;
+	width: 100%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: green;
+}
+a:hover{
+	color: lightgreen;
 }
