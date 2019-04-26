@@ -9,7 +9,7 @@ const CardGenerator = (props) => {
 		<div className='custom-card'>
 		  <div className='card-container'>
 		    <div className='top'>
-		      {name}
+		      <h1>{name}</h1>
 		      <div>
 				<ul>
 		        	<li>hair color: {props.infobanana.hair_color}</li>
@@ -19,7 +19,7 @@ const CardGenerator = (props) => {
 		      </div>
 		    </div>
 		    <div className='middle'>
-				<h4>is from <a href={props.infobanana.homeworld}>this planet</a></h4>
+				<h4>{name} is from <a href={props.infobanana.homeworld}>this planet</a></h4>
 		    </div>
 		  </div>
 		</div>
