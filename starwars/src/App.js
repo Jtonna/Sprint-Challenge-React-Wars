@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import CardList from './components/CardList.js';
+
+import './components/CardStyler.css';
+
 
 class App extends Component {
+
   constructor() {
     super();
     this.state = {
@@ -29,10 +34,18 @@ class App extends Component {
       });
   };
 
+  // my code is below, the code above gets the array from a remote server
+  //props is an obj that is passed down to a functional component through an argument
+
   render() {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <section className="Cards-Section">
+          <div>
+            <CardList starwarsCharsBanana={this.state.starwarsChars} />
+          </div>
+        </section>
       </div>
     );
   }

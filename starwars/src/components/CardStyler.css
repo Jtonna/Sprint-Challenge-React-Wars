@@ -1,0 +1,27 @@
+.cardList{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 4rem;
+	justify-content: center;
+}
+.custom-card{
+	margin-top: 4rem;
+	text-align: center;
+	padding: 0 4rem;
+}
+.card-container{
+	background: white;
+	border-radius: .5rem;
+	padding: 2.5rem;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: green;
+}
+a:hover{
+	color: lightgreen;
+}
